@@ -1,1 +1,45 @@
-
+Hairless
+        Your owner is out the whole day on a day trip. How do you decide to spend the whole day?
+        Sit at the door, meow, and wait for them while sulking all day :(
+        Oh no!! Your owner returns with a new cat! How do you react?
+        Yay!! I’ve been so lonely. I’m excited to have a new friend! :)
+        Hmph! This new cat decides to take your favorite spot on the cat tree! You…
+        Decide to join them and cuddle!
+        Your owner feels bad and gives you treats to make you feel better. You decide to…
+        I feel bad that the new cat doesn't get any. Let save a treat for them!
+        Eh? The front door is suddenly open. The outside world! You… 
+        It looks fun! But scary. Try to convince the new cat to go outside with you. 
+        You hear the sound of the food container. It’s dinner time! You…
+        I’ll wait! It will come to me all the same. 
+        It's time to go to bed! The moon is out. You..
+        Cuddle with my owner, they look exhausted.
+Black
+       Your owner is out the whole day on a day trip. How do you decide to spend the whole day?
+       Who cares? I get to sleep all day! 
+       Oh no!! Your owner returns with a new cat! How do you react?
+       Who the heck is this?! I’m not sharing my wet food! I’m just going to ignore them.
+       Hmph! This new cat decides to take your favorite spot on the cat tree! You…
+       Decide to join them and cuddle!
+       Your owner feels bad and gives you treats to make you feel better. You decide to…
+       Take the offer! Eat the yummy treats with lots of delight.
+       Eh? The front door is suddenly open. The outside world! You… 
+       Didn’t even notice. Was sleeping the entire time!
+       You hear the sound of the food container. It’s dinner time! You…
+       It’s that time. I’m already waiting by the bowl and meowing at them to hurry up!
+       It's time to go to bed! The moon is out. You..
+       Lay down at my favorite spot on the cat tree.
+Tabby
+       Your owner is out the whole day on a day trip. How do you decide to spend the whole day?
+       Who cares? I get to sleep all day! 
+       Oh no!! Your owner returns with a new cat! How do you react?
+       I wasn’t expecting this, but I'm curious! Who knows what this new cat will be like? 
+       Hmph! This new cat decides to take your favorite spot on the cat tree! You…
+       Hiss! Make it extremely clear that this is my home and my spot!
+       Your owner feels bad and gives you treats to make you feel better. You decide to…
+       Take the offer! Eat the yummy treats with lots of delight.
+       Eh? The front door is suddenly open. The outside world! You… 
+       Stay inside. I’m sure this is a lot better than what the outside has to offer.
+       You hear the sound of the food container. It’s dinner time! You…
+       FOOD! I immediately run over to eat as it’s poured out of the container.
+       It's time to go to bed! The moon is out. You..
+       Lay down at my favorite spot on the cat tree.
