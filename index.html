@@ -5,16 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>What kind of Cat Persona are you?</title>
     <style> 
+        html, body {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+        }
         .title {
             font-size: 21px;
-            margin-bottom: 3vh;
+            margin-bottom: 1vh;
             text-align: center;
         }
         .subheader {
-        	text-align: center;
+            text-align: center;
+            margin-bottom: 1vh;
         }
         .start-button {
-            font-size: 21px;
+            font-size: 18px;
             padding: 1vh 2vw;
             border: 2px solid #f5347f; 
             background-color: #ffc0cB;
@@ -27,6 +36,22 @@
             margin-bottom: 3vh;
         }
         .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    </style>
+</head> 
+<body>
+    <div class="container">
+        <h1 class="title">What kind of Cat Persona are you?</h1>
+        <p class="subheader">Welcome to Cat Wonderland! Meow!</p>
+        <img src="images/cutecat.jpg" alt="Cute Cat" class="image">
+        <a href="#" class="start-button">Let's start!</a>
+    </div>
+</body> 
+</html>
+
             display: flex;
             flex-direction: column;
             align-items: center;
