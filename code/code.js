@@ -1,72 +1,72 @@
 const Data = {
     "1": {
         "text": "Your owner is out the whole day on a day trip. How do you decide to spend the whole day?",
-        "image" : "images/cutecat1.jpg",
+        "image": "images/cutecat1.jpg",
         "choices": {
-            "Sit at the door, meow, and wait for them while sulking all day": [2,["Hairless"]],
-            "Who cares? I get to sleep all day!": [2,["Black", "Tabby"]],
-            "Yay!! I can do whatever I want!! I can try breaking into the Pantry!": [2,["Gray", "Orange", "Tuxedo"]],
-            "Why is it so quiet…?": [2,["Calico", "White"]]
+            "Sit at the door, meow, and wait for them while sulking all day": [2, ["Hairless"]],
+            "Who cares? I get to sleep all day!": [2, ["Black", "Tabby"]],
+            "Yay!! I can do whatever I want!! I can try breaking into the Pantry!": [2, ["Gray", "Orange", "Tuxedo"]],
+            "Why is it so quiet…?": [2, ["Calico", "White"]]
         }
     },
     "2": {
         "text": "Oh no!! Your owner returns with a new cat! How do you react?",
-        "image" : "images/cutecat2.jpg",
+        "image": "images/cutecat2.jpg",
         "choices": {
-            "Who the heck is this?! I’m not sharing my wet food! I’m just going to ignore them.": [3,["Black", "Tuxedo"]],
-            "Yay! I’ve been so lonely. I’m excited to have a new friend!": [3,["White", "Hairless"]],
-            "No one comes into my house! I’m going to make their life a living nightmare.": [3,["Gray", "Orange"]],
-            "I wasn’t expecting this, but I'm curious! Who knows what this new cat will be like?": [3,["Calico", "Tabby"]]
+            "Who the heck is this?! I’m not sharing my wet food! I’m just going to ignore them.": [3, ["Black", "Tuxedo"]],
+            "Yay! I’ve been so lonely. I’m excited to have a new friend!": [3, ["White", "Hairless"]],
+            "No one comes into my house! I’m going to make their life a living nightmare.": [3, ["Gray", "Orange"]],
+            "I wasn’t expecting this, but I'm curious! Who knows what this new cat will be like?": [3, ["Calico", "Tabby"]]
         }
     },
     "3": {
         "text": "Hmph! This new cat decides to take your favorite spot on the cat tree! You…",
-        "image" : "images/cutecat3.jpg",
+        "image": "images/cutecat3.jpg",
         "choices": {
-            "Hiss! Make it extremely clear that this is my home and my spot!": [4,["Gray", "Tabby", "Calico"]],
-            "Whatever. I will just find another spot.": [4,["Tuxedo"]],
-            "Decide to join them and cuddle!": [4,["Hairless", "Black"]],
-            "Whine at my owner! This is not fair!!": [4,["Orange", "White"]]
+            "Hiss! Make it extremely clear that this is my home and my spot!": [4, ["Gray", "Tabby", "Calico"]],
+            "Whatever. I will just find another spot.": [4, ["Tuxedo"]],
+            "Decide to join them and cuddle!": [4, ["Hairless", "Black"]],
+            "Whine at my owner! This is not fair!!": [4, ["Orange", "White"]]
         }
     },
     "4": {
         "text": "Your owner feels bad and gives you treats to make you feel better. You decide to…",
-        "image" : "images/cutecat4.jpg",
+        "image": "images/cutecat4.jpg",
         "choices": {
-            "Take the offer! Eat the yummy treats with lots of delight.": [5,["Black", "Tabby", "White"]],
-            "I feel bad that the new cat doesn't get any. Let me give one to them!": [5,["Hairless"]],
-            "The treats are irresistible so I end up taking them, but I keep whining at my owner so they know I’m still upset": [5,["Orange, Calico"]],
-            "Watch your owner carefully to see where they place the treats…maybe you can have a second round of treats later!": [5,["Grey", "Tuxedo"]],
+            "Take the offer! Eat the yummy treats with lots of delight.": [5, ["Black", "Tabby", "White"]],
+            "I feel bad that the new cat doesn't get any. Let me give one to them!": [5, ["Hairless"]],
+            "The treats are irresistible so I end up taking them, but I keep whining at my owner so they know I’m still upset": [5, ["Orange", "Calico"]],
+            "Watch your owner carefully to see where they place the treats…maybe you can have a second round of treats later!": [5, ["Grey", "Tuxedo"]],
         }
     },
     "5": {
         "text": "Eh? The front door is suddenly open. The outside world! You…",
-        "image" : "images/cutecat5.jpg",
+        "image": "images/cutecat5.jpg",
         "choices": {
-            "Stay inside. I’m sure this is a lot better than what the outside has to offer": [6,["White", "Tabby"]],
-            "Immediately go outside and explore! I’ll be back when it's time to eat!": [6,["Orange", "Grey", "Tuxedo"]],
-            "It looks fun! But scary. Try to convince the new cat to go outside with you.": [6,["Hairless", "Calico"]],
-            "Didn’t even notice. Was sleeping the entire time!": [6,["Black"]]
+            "Stay inside. I’m sure this is a lot better than what the outside has to offer": [6, ["White", "Tabby"]],
+            "Immediately go outside and explore! I’ll be back when it's time to eat!": [6, ["Orange", "Grey", "Tuxedo"]],
+            "It looks fun! But scary. Try to convince the new cat to go outside with you.": [6, ["Hairless", "Calico"]],
+            "Didn’t even notice. Was sleeping the entire time!": [6, ["Black"]]
         }
     },
     "6": {
         "text": "You hear the sound of the food container. It’s dinner time! You…",
-        "image" : "images/cutecat6.jpg",   
+        "image": "images/cutecat6.jpg",
         "choices": {
-            "FOOD! I immediately run over to eat as it’s poured out of the container.!": [7,["Orange", "Calico"]],
-            "I’ll wait! It will come to me all the same.": [7,["Tuxedo", "White", "Hairless"]],
+            "FOOD! I immediately run over to eat as it’s poured out of the container.!": [7, ["Orange", "Calico"]],
+            "I’ll wait! It will come to me all the same.": [7, ["Tuxedo", "White", "Hairless"]],
             "What’s that sound? It sounds familiar… I’ll go over to investigate.": [7, ["Calico"]],
-            "It’s that time. I’m already waiting by the bowl and meowing at them to hurry up!": [7,["Black", "Gray"]]
+            "It’s that time. I’m already waiting by the bowl and meowing at them to hurry up!": [7, ["Black", "Gray"]]
         }
     },
     "7": {
         "text": "It's time to go to bed! The moon is out. You…",
-        "image" : "images/cutecat7.jpg",   
+        "image": "images/cutecat7.jpg",
         "choices": {
-            "Now’s my time to get my revenge. I’m chasing that new cat around.": [8,["Gray"]],
-            "Lay down at my favorite spot on the cat tree.": [8,["Tuxedo", "Black", "Tabby"]],
+            "Now’s my time to get my revenge. I’m chasing that new cat around.": [8, ["Gray"]],
+            "Lay down at my favorite spot on the cat tree.": [8, ["Tuxedo", "Black", "Tabby"]],
             "Cuddle with my owner, they look exhausted.": [8, ["Hairless", "White"]],
-            "I still have so much energy! Let’s play! I can still play with my favorite toy!": [8,["Orange", "Calico"]]
+            "I still have so much energy! Let’s play! I can still play with my favorite toy!": [8, ["Orange", "Calico"]]
         }
     }
 };
@@ -74,11 +74,11 @@ const Data = {
 const kitties = { //creates counters
     "Orange": 0,
     "Tabby": 0,
-    "White": 0, 
-    "Grey": 0, 
-    "Calico": 0, 
-    "Tuxedo": 0, 
-    "Hairless": 0, 
+    "White": 0,
+    "Grey": 0,
+    "Calico": 0,
+    "Tuxedo": 0,
+    "Hairless": 0,
     "Black": 0
 };
 
@@ -124,3 +124,13 @@ function showResults() {
     document.getElementById("question-container").innerHTML = `<h2>Your cat persona is: ${finalPersona}!</h2>`;
     document.getElementById("choices-container").style.display = "none";
 }
+
+// Attach event listener for start button
+document.getElementById("startButton").addEventListener("click", function() {
+    document.getElementById("question-container").style.display = "block"; // Show the question container
+    document.getElementById("startButton").style.display = "none"; // Hide the start button
+    updateQuestion(); // Load the first question
+});
+
+// Initialize the page by hiding the question container until the quiz starts
+document.getElementById("question-container").style.display = "none";
