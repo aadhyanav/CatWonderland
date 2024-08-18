@@ -1,7 +1,7 @@
 const Data = {
     "1": {
         "text": "Your owner is out the whole day on a day trip. How do you decide to spend the whole day?",
-        "image": "images/cutecat1.jpg",
+        "image" : "images/cutecat1.jpg",
         "choices": {
             "Sit at the door, meow, and wait for them while sulking all day": [2, ["Hairless"]],
             "Who cares? I get to sleep all day!": [2, ["Black", "Tabby"]],
@@ -11,7 +11,7 @@ const Data = {
     },
     "2": {
         "text": "Oh no!! Your owner returns with a new cat! How do you react?",
-        "image": "images/cutecat2.jpg",
+        "image" : "images/cutecat2.jpg",
         "choices": {
             "Who the heck is this?! I’m not sharing my wet food! I’m just going to ignore them.": [3, ["Black", "Tuxedo"]],
             "Yay! I’ve been so lonely. I’m excited to have a new friend!": [3, ["White", "Hairless"]],
@@ -21,7 +21,7 @@ const Data = {
     },
     "3": {
         "text": "Hmph! This new cat decides to take your favorite spot on the cat tree! You…",
-        "image": "images/cutecat3.jpg",
+        "image" : "images/cutecat3.jpg",
         "choices": {
             "Hiss! Make it extremely clear that this is my home and my spot!": [4, ["Gray", "Tabby", "Calico"]],
             "Whatever. I will just find another spot.": [4, ["Tuxedo"]],
@@ -31,27 +31,27 @@ const Data = {
     },
     "4": {
         "text": "Your owner feels bad and gives you treats to make you feel better. You decide to…",
-        "image": "images/cutecat4.jpg",
+        "image" : "images/cutecat4.jpg",
         "choices": {
             "Take the offer! Eat the yummy treats with lots of delight.": [5, ["Black", "Tabby", "White"]],
             "I feel bad that the new cat doesn't get any. Let me give one to them!": [5, ["Hairless"]],
             "The treats are irresistible so I end up taking them, but I keep whining at my owner so they know I’m still upset": [5, ["Orange", "Calico"]],
-            "Watch your owner carefully to see where they place the treats…maybe you can have a second round of treats later!": [5, ["Grey", "Tuxedo"]],
+            "Watch your owner carefully to see where they place the treats…maybe you can have a second round of treats later!": [5, ["Gray", "Tuxedo"]],
         }
     },
     "5": {
         "text": "Eh? The front door is suddenly open. The outside world! You…",
-        "image": "images/cutecat5.jpg",
+        "image" : "images/cutecat5.jpg",
         "choices": {
             "Stay inside. I’m sure this is a lot better than what the outside has to offer": [6, ["White", "Tabby"]],
-            "Immediately go outside and explore! I’ll be back when it's time to eat!": [6, ["Orange", "Grey", "Tuxedo"]],
+            "Immediately go outside and explore! I’ll be back when it's time to eat!": [6, ["Orange", "Gray", "Tuxedo"]],
             "It looks fun! But scary. Try to convince the new cat to go outside with you.": [6, ["Hairless", "Calico"]],
             "Didn’t even notice. Was sleeping the entire time!": [6, ["Black"]]
         }
     },
     "6": {
         "text": "You hear the sound of the food container. It’s dinner time! You…",
-        "image": "images/cutecat6.jpg",
+        "image" : "images/cutecat6.jpg",   
         "choices": {
             "FOOD! I immediately run over to eat as it’s poured out of the container.!": [7, ["Orange", "Calico"]],
             "I’ll wait! It will come to me all the same.": [7, ["Tuxedo", "White", "Hairless"]],
@@ -61,7 +61,7 @@ const Data = {
     },
     "7": {
         "text": "It's time to go to bed! The moon is out. You…",
-        "image": "images/cutecat7.jpg",
+        "image" : "images/cutecat7.jpg",   
         "choices": {
             "Now’s my time to get my revenge. I’m chasing that new cat around.": [8, ["Gray"]],
             "Lay down at my favorite spot on the cat tree.": [8, ["Tuxedo", "Black", "Tabby"]],
@@ -74,22 +74,28 @@ const Data = {
 const kitties = { //creates counters
     "Orange": 0,
     "Tabby": 0,
-    "White": 0,
-    "Grey": 0,
-    "Calico": 0,
-    "Tuxedo": 0,
-    "Hairless": 0,
+    "White": 0, 
+    "Gray": 0, 
+    "Calico": 0, 
+    "Tuxedo": 0, 
+    "Hairless": 0, 
     "Black": 0
 };
 
 let currentQuestion = 1; 
+
+function startQuiz() {
+    document.querySelector(".container").style.display = "none"; // Hide homepage
+    document.getElementById("question-container").style.display = "block"; // Show question container
+    updateQuestion(); // Show the first question
+}
 
 function nextQuestion(choice) {
     const selectedChoice = Data[currentQuestion].choices[choice];
     const nextQuestionNumber = selectedChoice[0];
     const kittyTypes = selectedChoice[1];
 
-    kittyTypes.forEach(kitty => { // update scores
+    kittyTypes.forEach(kitty => { // Update scores
         kitties[kitty]++;
     });
 
@@ -101,17 +107,17 @@ function nextQuestion(choice) {
     }
 }
 
-function updateQuestion() { //retrieve data from each question
+function updateQuestion() { // Retrieve data from each question
     const questionData = Data[currentQuestion];
     document.getElementById("question-text").innerText = questionData.text;
     document.getElementById("question-image").src = questionData.image;
 
     const choicesContainer = document.getElementById("choices-container");
-    choicesContainer.innerHTML = ""; // clear previous choices
+    choicesContainer.innerHTML = ""; // Clear previous choices
 
     Object.keys(questionData.choices).forEach(choiceText => {
         const button = document.createElement("button");
-        button.className = "choice-button"; //buttons
+        button.className = "choice-button"; // Buttons
         button.innerText = choiceText;
         button.onclick = () => nextQuestion(choiceText);
         choicesContainer.appendChild(button);
@@ -125,12 +131,7 @@ function showResults() {
     document.getElementById("choices-container").style.display = "none";
 }
 
-// Attach event listener for start button
-document.getElementById("startButton").addEventListener("click", function() {
-    document.getElementById("question-container").style.display = "block"; // Show the question container
-    document.getElementById("startButton").style.display = "none"; // Hide the start button
-    updateQuestion(); // Load the first question
+document.getElementById("startButton").addEventListener("click", (event) => {
+    event.preventDefault(); // Prevent default link behavior
+    startQuiz(); // Start the quiz
 });
-
-// Initialize the page by hiding the question container until the quiz starts
-document.getElementById("question-container").style.display = "none";
