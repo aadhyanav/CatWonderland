@@ -85,7 +85,10 @@ const kitties = { //creates counters
 let currentQuestion = 1; 
 
 function startQuiz() {
-    document.querySelector(".container").style.display = "none"; // Hide homepage
+    document.querySelector(".title").style.display = "none"; // Hide the title
+    document.querySelector(".subheader").style.display = "none"; // Hide the subheader
+    document.querySelector(".container").style.display = "none"; // Hide the homepage container
+
     document.getElementById("question-container").style.display = "block"; // Show question container
     updateQuestion(); // Show the first question
 }
