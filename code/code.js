@@ -1,7 +1,7 @@
 const Data = {
     "1": {
         "text": "Your owner is out the whole day on a day trip. How do you decide to spend the whole day?",
-        "image" : "images/cutecat1.jpg",
+        "image" : "images/question1.PNG",
         "choices": {
             "Sit at the door, meow, and wait for them while sulking all day": [2, ["Hairless"]],
             "Who cares? I get to sleep all day!": [2, ["Black", "Tabby"]],
