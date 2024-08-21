@@ -11,7 +11,7 @@ const Data = {
     },
     "2": {
         "text": "Oh no!! Your owner returns with a new cat! How do you react?",
-        "image" : "images/cutecat2.jpg",
+        "image" : "images/question2.PNG",
         "choices": {
             "Who the heck is this?! I’m not sharing my wet food! I’m just going to ignore them.": [3, ["Black", "Tuxedo"]],
             "Yay! I’ve been so lonely. I’m excited to have a new friend!": [3, ["White", "Hairless"]],
@@ -21,7 +21,7 @@ const Data = {
     },
     "3": {
         "text": "Hmph! This new cat decides to take your favorite spot on the cat tree! You…",
-        "image" : "images/cutecat3.jpg",
+        "image" : "images/question3.PNG",
         "choices": {
             "Hiss! Make it extremely clear that this is my home and my spot!": [4, ["Gray", "Tabby", "Calico"]],
             "Whatever. I will just find another spot.": [4, ["Tuxedo"]],
@@ -31,7 +31,7 @@ const Data = {
     },
     "4": {
         "text": "Your owner feels bad and gives you treats to make you feel better. You decide to…",
-        "image" : "images/cutecat4.jpg",
+        "image" : "images/question4.PNG",
         "choices": {
             "Take the offer! Eat the yummy treats with lots of delight.": [5, ["Black", "Tabby", "White"]],
             "I feel bad that the new cat doesn't get any. Let me give one to them!": [5, ["Hairless"]],
@@ -41,7 +41,7 @@ const Data = {
     },
     "5": {
         "text": "Eh? The front door is suddenly open. The outside world! You…",
-        "image" : "images/cutecat5.jpg",
+        "image" : "images/question5.PNG",
         "choices": {
             "Stay inside. I’m sure this is a lot better than what the outside has to offer": [6, ["White", "Tabby"]],
             "Immediately go outside and explore! I’ll be back when it's time to eat!": [6, ["Orange", "Gray", "Tuxedo"]],
@@ -51,7 +51,7 @@ const Data = {
     },
     "6": {
         "text": "You hear the sound of the food container. It’s dinner time! You…",
-        "image" : "images/cutecat6.jpg",   
+        "image" : "images/question6.PNG",   
         "choices": {
             "FOOD! I immediately run over to eat as it’s poured out of the container.!": [7, ["Orange", "Calico"]],
             "I’ll wait! It will come to me all the same.": [7, ["Tuxedo", "White", "Hairless"]],
@@ -61,7 +61,7 @@ const Data = {
     },
     "7": {
         "text": "It's time to go to bed! The moon is out. You…",
-        "image" : "images/cutecat7.jpg",   
+        "image" : "images/question7.PNG",   
         "choices": {
             "Now’s my time to get my revenge. I’m chasing that new cat around.": [8, ["Gray"]],
             "Lay down at my favorite spot on the cat tree.": [8, ["Tuxedo", "Black", "Tabby"]],
