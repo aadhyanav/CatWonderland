@@ -36,7 +36,7 @@ const Data = {
             "Take the offer! Eat the yummy treats with lots of delight.": [5, ["Black", "Tabby", "White"]],
             "I feel bad that the new cat doesn't get any. Let me give one to them!": [5, ["Hairless"]],
             "The treats are irresistible so I end up taking them, but I keep whining at my owner so they know I’m still upset": [5, ["Orange", "Calico"]],
-            "Watch your owner carefully to see where they place the treats…maybe you can have a second round of treats later!": [5, ["Gray", "Tuxedo"]],
+            "Watch my owner carefully to see where they place the treats…maybe I can have a second round of treats later!!": [5, ["Gray", "Tuxedo"]],
         }
     },
     "5": {
@@ -45,7 +45,7 @@ const Data = {
         "choices": {
             "Stay inside. I’m sure this is a lot better than what the outside has to offer": [6, ["White", "Tabby"]],
             "Immediately go outside and explore! I’ll be back when it's time to eat!": [6, ["Orange", "Gray", "Tuxedo"]],
-            "It looks fun! But scary. Try to convince the new cat to go outside with you.": [6, ["Hairless", "Calico"]],
+            "It looks fun! But scary. Let me convince the new cat to go outside with me.": [6, ["Hairless", "Calico"]],
             "Didn’t even notice. Was sleeping the entire time!": [6, ["Black"]]
         }
     },
@@ -55,7 +55,7 @@ const Data = {
         "choices": {
             "FOOD! I immediately run over to eat as it’s poured out of the container.!": [7, ["Orange", "Calico"]],
             "I’ll wait! It will come to me all the same.": [7, ["Tuxedo", "White", "Hairless"]],
-            "What’s that sound? It sounds familiar… I’ll go over to investigate.": [7, ["Calico"]],
+            "What’s that sound? It sounds familiar…I’ll go over to investigate.": [7, ["Calico"]],
             "It’s that time. I’m already waiting by the bowl and meowing at them to hurry up!": [7, ["Black", "Gray"]]
         }
     },
