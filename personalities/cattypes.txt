@@ -1,14 +1,14 @@
 Hairless
         Your owner is out the whole day on a day trip. How do you decide to spend the whole day?
-        Sit at the door, meow, and wait for them while sulking all day :(
+        Sit at the door, meow, and wait for them while sulking all day 
         Oh no!! Your owner returns with a new cat! How do you react?
-        Yay!! I’ve been so lonely. I’m excited to have a new friend! :)
+        Yay! I’ve been so lonely. I’m excited to have a new friend!
         Hmph! This new cat decides to take your favorite spot on the cat tree! You…
         Decide to join them and cuddle!
         Your owner feels bad and gives you treats to make you feel better. You decide to…
-        I feel bad that the new cat doesn't get any. Let save a treat for them!
+        I feel bad that the new cat doesn't get any. Let me give one to them!
         Eh? The front door is suddenly open. The outside world! You… 
-        It looks fun! But scary. Try to convince the new cat to go outside with you. 
+        It looks fun! But scary. Let me convince the new cat to go outside with me. 
         You hear the sound of the food container. It’s dinner time! You…
         I’ll wait! It will come to me all the same. 
         It's time to go to bed! The moon is out. You...
@@ -45,9 +45,9 @@ Tabby
        Lay down at my favorite spot on the cat tree.
 Orange
         Your owner is out the whole day on a day trip. How do you decide to spend the whole day?
-        Yay!! I can do whatever I want!! I can try breaking into the Pantry :D
+        Yay!! I can do whatever I want!! I can try breaking into the Pantry 
         Oh no!! Your owner returns with a new cat! How do you react?
-        No one comes into my house >:( I’m going to make their life a living nightmare.
+        No one comes into my house I’m going to make their life a living nightmare.
         Hmph! This new cat decides to take your favorite spot on the cat tree! You…
         Whine at my owner! This is not fair!!
         Your owner feels bad and gives you treats to make you feel better. You decide to…
@@ -60,13 +60,13 @@ Orange
         I still have so much energy! Let’s play! I can still play with my favorite toy!
 Tuxedo
         Your owner is out the whole day on a day trip. How do you decide to spend the whole day?
-        Yay!! I can do whatever I want!! I can try breaking into the Pantry :D
+        Yay!! I can do whatever I want!! I can try breaking into the Pantry 
         Oh no!! Your owner returns with a new cat! How do you react?
         Who the heck is this?! I’m not sharing my wet food! I’m just going to ignore them.
         Hmph! This new cat decides to take your favorite spot on the cat tree! You…
         Whatever. I will just find another spot.
         Your owner feels bad and gives you treats to make you feel better. You decide to…
-        Watch your owner carefully to see where they place the treats…maybe you can have a second round of treats later!
+        Watch my owner carefully to see where they place the treats…maybe I can have a second round of treats later!!
         Eh? The front door is suddenly open. The outside world! You…
         Immediately go outside and explore! I’ll be back when it's time to eat!
         You hear the sound of the food container. It’s dinner time! You…
@@ -77,7 +77,7 @@ White
         Your owner is out the whole day on a day trip. How do you decide to spend the whole day?
         Why is it so quiet…?
         Oh no!! Your owner returns with a new cat! How do you react?
-        Yay! I’ve been so lonely. I’m excited to have a new friend! :)
+        Yay! I’ve been so lonely. I’m excited to have a new friend! 
         Hmph! This new cat decides to take your favorite spot on the cat tree! You…
         Whine at my owner! This is not fair!!
         Your owner feels bad and gives you treats to make you feel better. You decide to…
@@ -98,7 +98,7 @@ Calico
         Your owner feels bad and gives you treats to make you feel better. You decide to…
         The treats are irresistible so I end up taking them, but I keep whining at my owner so they know I’m still upset.
         Eh? The front door is suddenly open. The outside world! You…
-        It looks fun! But scary. Try to convince the new cat to go outside with you.
+        It looks fun! But scary. Let me convince the new cat to go outside with me.
         You hear the sound of the food container. It’s dinner time! You…
         What’s that sound? It sounds familiar… I’ll go over to investigate.
         It's time to go to bed! The moon is out. You…
