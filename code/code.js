@@ -130,8 +130,44 @@ function updateQuestion() { // Retrieve data from each question
 function showResults() {
     const maxScore = Math.max(...Object.values(kitties));
     const finalPersona = Object.keys(kitties).find(kitty => kitties[kitty] === maxScore);
-    document.getElementById("question-container").innerHTML = `<h2>Your cat persona is: ${finalPersona}!</h2>`;
-    document.getElementById("choices-container").style.display = "none";
+    
+    // Prepare results container
+    const resultsContainer = document.getElementById("question-container");
+    resultsContainer.innerHTML = ""; // Clear previous content
+
+    // Create the results heading
+    const resultHeading = document.createElement("h2");
+    resultHeading.innerText = `Your cat persona is: ${finalPersona}!`;
+    resultsContainer.appendChild(resultHeading);
+    
+    // Create the image element for the cat persona
+    const catImage = document.createElement("img");
+    catImage.src = `images/${finalPersona}.PNG`; // Assumes image files are named after the cat types
+    catImage.alt = finalPersona;
+    catImage.style.width = "300px"; // Adjust size as needed
+    resultsContainer.appendChild(catImage);
+    
+    // Create a description block for each cat type
+    const descriptions = {
+        "Orange": "Orange cats are known for their vibrant fur and playful personality. They love attention and are very affectionate.",
+        "Tabby": "Tabby cats have a distinctive coat pattern with stripes or swirls. They're known for their curiosity and intelligence.",
+        "White": "White cats are often associated with purity and calm. They tend to be gentle and quiet.",
+        "Gray": "Gray cats are elegant and often very independent. They have a mysterious charm and are quite reserved.",
+        "Calico": "Calico cats are known for their unique and colorful coats. They're often very spirited and lively.",
+        "Tuxedo": "Tuxedo cats have a striking black and white coat, resembling a formal suit. They are usually quite playful and engaging.",
+        "Hairless": "Hairless cats are distinctive for their lack of fur. They're known for being affectionate and seeking warmth from their owners.",
+        "Black": "Black cats are often associated with mystery and magic. They are usually very independent but can be affectionate as well."
+    };
+
+    const descriptionText = document.createElement("p");
+    descriptionText.innerText = descriptions[finalPersona];
+    resultsContainer.appendChild(descriptionText);
+
+    // Optionally, add a button to restart the quiz
+    const restartButton = document.createElement("button");
+    restartButton.innerText = "Restart Quiz";
+    restartButton.onclick = () => location.reload(); // Reloads the page to restart the quiz
+    resultsContainer.appendChild(restartButton);
 }
 
 document.getElementById("startButton").addEventListener("click", (event) => {
