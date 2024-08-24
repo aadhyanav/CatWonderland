@@ -149,14 +149,14 @@ function showResults() {
     
     // Create a description block for each cat type
     const descriptions = {
-        "Orange": "Orange cats are known for their vibrant fur and playful personality. Energetic, Stubborn, and Determined.",
-        "Tabby": "Tabby cats have a distinctive coat pattern with stripes or swirls. Intuitive, Vocal, and Adventurous.",
-        "White": "White cats are often associated with purity and calm. Gentle, Delicate, and Affectionate.",
-        "Gray": "Gray cats are elegant and often very independent. Reserved, Curious, Fast Learner and Experimental",
-        "Calico": "Calico cats are known for their unique and colorful coats. Assertive, Unique, and Socially Aware.",
-        "Tuxedo": "Tuxedo cats have a striking black and white coat, resembling a formal suit. Intelligent, Quirky, and Fun",
-        "Hairless": "Hairless cats are distinctive for their lack of fur. Warm, Spontaneous, Friendly, and Non-Judgemental.",
-        "Black": "Black cats are often associated with mystery and magic. Independent, Mysterious, and Affectionate."
+        "Orange": "Energetic, Stubborn, and Determined.",
+        "Tabby": "Intuitive, Vocal, and Adventurous.",
+        "White": "Gentle, Delicate, and Affectionate.",
+        "Gray": "Reserved, Curious, Fast Learner and Experimental",
+        "Calico": "Assertive, Unique, and Socially Aware.",
+        "Tuxedo": "Intelligent, Quirky, and Fun",
+        "Hairless": "Warm, Spontaneous, Friendly, and Non-Judgemental.",
+        "Black": "Independent, Mysterious, and Affectionate."
     };
 
     const descriptionText = document.createElement("p");
