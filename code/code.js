@@ -149,14 +149,14 @@ function showResults() {
     
     // Create a description block for each cat type
     const descriptions = {
-        "Orange": "Orange cats are known for their vibrant fur and playful personality. They love attention and are very affectionate.",
-        "Tabby": "Tabby cats have a distinctive coat pattern with stripes or swirls. They're known for their curiosity and intelligence.",
-        "White": "White cats are often associated with purity and calm. They tend to be gentle and quiet.",
-        "Gray": "Gray cats are elegant and often very independent. They have a mysterious charm and are quite reserved.",
-        "Calico": "Calico cats are known for their unique and colorful coats. They're often very spirited and lively.",
-        "Tuxedo": "Tuxedo cats have a striking black and white coat, resembling a formal suit. They are usually quite playful and engaging.",
-        "Hairless": "Hairless cats are distinctive for their lack of fur. They're known for being affectionate and seeking warmth from their owners.",
-        "Black": "Black cats are often associated with mystery and magic. They are usually very independent but can be affectionate as well."
+        "Orange": "Orange cats are known for their vibrant fur and playful personality. Energetic, Stubborn, and Determined.",
+        "Tabby": "Tabby cats have a distinctive coat pattern with stripes or swirls. Intuitive, Vocal, and Adventurous.",
+        "White": "White cats are often associated with purity and calm. Gentle, Delicate, and Affectionate.",
+        "Gray": "Gray cats are elegant and often very independent. Reserved, Curious, Fast Learner and Experimental",
+        "Calico": "Calico cats are known for their unique and colorful coats. Assertive, Unique, and Socially Aware.",
+        "Tuxedo": "Tuxedo cats have a striking black and white coat, resembling a formal suit. Intelligent, Quirky, and Fun",
+        "Hairless": "Hairless cats are distinctive for their lack of fur. Warm, Spontaneous, Friendly, and Non-Judgemental.",
+        "Black": "Black cats are often associated with mystery and magic. Independent, Mysterious, and Affectionate."
     };
 
     const descriptionText = document.createElement("p");
