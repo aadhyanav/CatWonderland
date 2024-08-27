@@ -3,7 +3,7 @@ const Data = {
         "text": "Your owner is out the whole day on a day trip. How do you decide to spend the whole day?",
         "image" : "images/question1.PNG",
         "choices": {
-            "Sit at the door, meow, and wait for them while sulking all day": [2, ["Hairless"]],
+            "Sit at the door, meow, and wait for them while sulking all day.": [2, ["Hairless"]],
             "Who cares? I get to sleep all day!": [2, ["Black", "Tabby"]],
             "Yay!! I can do whatever I want!! I can try breaking into the Pantry!": [2, ["Gray", "Orange", "Tuxedo"]],
             "Why is it so quiet…?": [2, ["Calico", "White"]]
@@ -35,7 +35,7 @@ const Data = {
         "choices": {
             "Take the offer! Eat the yummy treats with lots of delight.": [5, ["Black", "Tabby", "White"]],
             "I feel bad that the new cat doesn't get any. Let me give one to them!": [5, ["Hairless"]],
-            "The treats are irresistible so I end up taking them, but I keep whining at my owner so they know I’m still upset": [5, ["Orange", "Calico"]],
+            "The treats are irresistible so I end up taking them, but I keep whining at my owner so they know I’m still upset.": [5, ["Orange", "Calico"]],
             "Watch my owner carefully to see where they place the treats…maybe I can have a second round of treats later!!": [5, ["Gray", "Tuxedo"]],
         }
     },
@@ -43,7 +43,7 @@ const Data = {
         "text": "Eh? The front door is suddenly open. The outside world! You…",
         "image" : "images/question5.PNG",
         "choices": {
-            "Stay inside. I’m sure this is a lot better than what the outside has to offer": [6, ["White", "Tabby"]],
+            "Stay inside. I’m sure this is a lot better than what the outside has to offer.": [6, ["White", "Tabby"]],
             "Immediately go outside and explore! I’ll be back when it's time to eat!": [6, ["Orange", "Gray", "Tuxedo"]],
             "It looks fun! But scary. Let me convince the new cat to go outside with me.": [6, ["Hairless", "Calico"]],
             "Didn’t even notice. Was sleeping the entire time!": [6, ["Black"]]
@@ -53,7 +53,7 @@ const Data = {
         "text": "You hear the sound of the food container. It’s dinner time! You…",
         "image" : "images/question6.PNG",   
         "choices": {
-            "FOOD! I immediately run over to eat as it’s poured out of the container.!": [7, ["Orange", "Calico"]],
+            "FOOD! I immediately run over to eat as it’s poured out of the container!": [7, ["Orange", "Calico"]],
             "I’ll wait! It will come to me all the same.": [7, ["Tuxedo", "White", "Hairless"]],
             "What’s that sound? It sounds familiar…I’ll go over to investigate.": [7, ["Calico"]],
             "It’s that time. I’m already waiting by the bowl and meowing at them to hurry up!": [7, ["Black", "Gray"]]
