@@ -1,6 +1,6 @@
 Hairless
         Your owner is out the whole day on a day trip. How do you decide to spend the whole day?
-        Sit at the door, meow, and wait for them while sulking all day 
+        Sit at the door, meow, and wait for them while sulking all day. 
         Oh no!! Your owner returns with a new cat! How do you react?
         Yay! I’ve been so lonely. I’m excited to have a new friend!
         Hmph! This new cat decides to take your favorite spot on the cat tree! You…
@@ -45,7 +45,7 @@ Tabby
        Lay down at my favorite spot on the cat tree.
 Orange
         Your owner is out the whole day on a day trip. How do you decide to spend the whole day?
-        Yay!! I can do whatever I want!! I can try breaking into the Pantry 
+        Yay!! I can do whatever I want!! I can try breaking into the Pantry! 
         Oh no!! Your owner returns with a new cat! How do you react?
         No one comes into my house I’m going to make their life a living nightmare.
         Hmph! This new cat decides to take your favorite spot on the cat tree! You…
@@ -105,7 +105,7 @@ Calico
         I still have so much energy! Let’s play! I can still play with my favorite toy!
 Gray
         Your owner is out the whole day on a day trip. How do you decide to spend the whole day?
-        Yay!! I can do whatever I want!! I can try breaking into the Pantry :D
+        Yay!! I can do whatever I want!! I can try breaking into the Pantry!
         Oh no!! Your owner returns with a new cat! How do you react?
         No one comes into my house >:( I’m going to make their life a living nightmare.
         Hmph! This new cat decides to take your favorite spot on the cat tree! You…
