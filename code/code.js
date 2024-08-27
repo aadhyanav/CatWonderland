@@ -204,7 +204,7 @@ function showResults() {
 
     // Optionally, add a button to restart the quiz
     const restartButton = document.createElement("button");
-    restartButton.classname = "restart-button";
+    restartButton.className = "restart-button";
     restartButton.innerText = "Restart Quiz";
     restartButton.onclick = () => location.reload(); // Reloads the page to restart the quiz
     resultsContainer.appendChild(restartButton);
