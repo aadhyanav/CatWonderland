@@ -159,9 +159,48 @@ function showResults() {
         "Black": "Independent, Mysterious, and Affectionate."
     };
 
+    const traits = {
+    "Orange": ["- Makes likes and dislikes extremely honest.",
+               "- Follows their heart.",
+               "- Strong willed.",
+               "- Main character energy.",
+               "- 'If I put my mind to it, I can do it.'"],
+    "Tabby": ["- Sassy and independent.",
+              "- Feisty if you challenge them.",
+              "- Not afraid to let others know what they want.",
+              "- Can be moody, but fun when in a good mood."],
+    "White": ["- Calm & gentle with others.",
+              "- 'I'll do it if you really want me to.'",
+              "- Loves cuddles.",
+              "- Enjoys alone time, but are very affectionate towards others."],
+    "Gray": ["- Very independent and prefers to be left alone.",
+             "- Sometimes a menace.",
+             "- No thoughts just meow meow."],
+    "Calico": ["- Unpredictable.",
+               "- You will never find someone like them.",
+               "- Changes personality based on occasion."],
+    "Tuxedo": ["- Sophisticated.",
+               "- Will silently judge you.",
+               "- Really fun and outgoing when you get to know them.",
+               "- The type to surprise you personality-wise."],
+    "Hairless": ["- Playful and fun.",
+                 "- Strong desire to impress others.",
+                 "- The type to take a bullet for you.",
+                 "- Clingy and needy."],
+    "Black": ["- Sleepy all the time.",
+              "- Tends to be introverted and prefers to spend time alone.",
+              "- 'If it happens, it happens.'",
+              "- Gets along with everyone, but prefers their own company.",
+              "- Won't make a fuss if they dislike something."]
+}
+
     const descriptionText = document.createElement("p");
     descriptionText.innerText = descriptions[finalPersona];
     resultsContainer.appendChild(descriptionText);
+
+    const traitsText = document.createElement("p");
+    traitsText.innerText = traits[finalPersona].join('\n'); // Join the array of traits into a single string with new lines
+    resultsContainer.appendChild(traitsText);
 
     // Optionally, add a button to restart the quiz
     const restartButton = document.createElement("button");
