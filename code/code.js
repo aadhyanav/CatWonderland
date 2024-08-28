@@ -212,12 +212,17 @@ function showResults() {
 
     resultsContainer.appendChild(traitsContainer);
 
-    // Optionally, add a button to restart the quiz
+// Create a container div for the restart button and append it after the traits box
+    const restartButtonContainer = document.createElement("div");
+    restartButtonContainer.style.marginTop = "1vh"; // Add some margin for spacing
+    
     const restartButton = document.createElement("button");
     restartButton.className = "restart-button";
     restartButton.innerText = "Restart Quiz";
     restartButton.onclick = () => location.reload(); // Reloads the page to restart the quiz
-    resultsContainer.appendChild(restartButton);
+    restartButtonContainer.appendChild(restartButton);
+    
+    resultsContainer.appendChild(restartButtonContainer);
 }
 
 document.getElementById("startButton").addEventListener("click", (event) => {
