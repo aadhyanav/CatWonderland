@@ -202,9 +202,15 @@ function showResults() {
     descriptionText.innerText = descriptions[finalPersona];
     resultsContainer.appendChild(descriptionText);
 
+    // Create a container div for the traits and apply the class for styling
+    const traitsContainer = document.createElement("div");
+    traitsContainer.className = "traits-box";
+
     const traitsText = document.createElement("p");
     traitsText.innerText = traits[finalPersona].join('\n'); // Join the array of traits into a single string with new lines
-    resultsContainer.appendChild(traitsText);
+    traitsContainer.appendChild(traitsText);
+
+    resultsContainer.appendChild(traitsContainer);
 
     // Optionally, add a button to restart the quiz
     const restartButton = document.createElement("button");
