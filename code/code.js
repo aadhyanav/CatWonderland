@@ -88,6 +88,7 @@ function startQuiz() {
     document.querySelector(".title").style.display = "none"; // Hide the title
     document.querySelector(".subheader").style.display = "none"; // Hide the subheader
     document.querySelector(".container").style.display = "none"; // Hide the homepage container
+    document.querySelector(".credits").style.display = "none"; // Hide credits in questions
 
     document.getElementById("question-container").style.display = "block"; // Show question container
     updateQuestion(); // Show the first question
@@ -223,6 +224,10 @@ function showResults() {
     restartButtonContainer.appendChild(restartButton);
     
     resultsContainer.appendChild(restartButtonContainer);
+
+    const credits = document.querySelector(".credits");
+    credits.style.display = "block";
+    resultsContainer.appendChild(credits);
 }
 
 document.getElementById("startButton").addEventListener("click", (event) => {
