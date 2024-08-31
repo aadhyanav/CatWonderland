@@ -4,7 +4,7 @@ const Data = {
         "image" : "images/question1.PNG",
         "choices": {
             "Sit at the door, meow, and wait for them while sulking all day.": [2, ["Hairless"]],
-            "Who cares? I get to sleep all day!": [2, ["Black", "Tabby"]],
+            "Who cares? I get to sleep all day!": [2, ["Black", "Brown"]],
             "Yay!! I can do whatever I want!! I can try breaking into the Pantry!": [2, ["Gray", "Orange", "Tuxedo"]],
             "Why is it so quiet…?": [2, ["Calico", "White"]]
         }
@@ -16,14 +16,14 @@ const Data = {
             "Who the heck is this?! I’m not sharing my wet food! I’m just going to ignore them.": [3, ["Black", "Tuxedo"]],
             "Yay! I’ve been so lonely. I’m excited to have a new friend!": [3, ["White", "Hairless"]],
             "No one comes into my house! I’m going to make their life a living nightmare.": [3, ["Gray", "Orange"]],
-            "I wasn’t expecting this, but I'm curious! Who knows what this new cat will be like?": [3, ["Calico", "Tabby"]]
+            "I wasn’t expecting this, but I'm curious! Who knows what this new cat will be like?": [3, ["Calico", "Brown"]]
         }
     },
     "3": {
         "text": "Hmph! This new cat decides to take your favorite spot on the cat tree! You…",
         "image" : "images/question3.PNG",
         "choices": {
-            "Hiss! Make it extremely clear that this is my home and my spot!": [4, ["Gray", "Tabby", "Calico"]],
+            "Hiss! Make it extremely clear that this is my home and my spot!": [4, ["Gray", "Brown", "Calico"]],
             "Whatever. I will just find another spot.": [4, ["Tuxedo"]],
             "Decide to join them and cuddle!": [4, ["Hairless", "Black"]],
             "Whine at my owner! This is not fair!!": [4, ["Orange", "White"]]
@@ -33,7 +33,7 @@ const Data = {
         "text": "Your owner feels bad and gives you treats to make you feel better. You decide to…",
         "image" : "images/question4.PNG",
         "choices": {
-            "Take the offer! Eat the yummy treats with lots of delight.": [5, ["Black", "Tabby", "White"]],
+            "Take the offer! Eat the yummy treats with lots of delight.": [5, ["Black", "Brown", "White"]],
             "I feel bad that the new cat doesn't get any. Let me give one to them!": [5, ["Hairless"]],
             "The treats are irresistible so I end up taking them, but I keep whining at my owner so they know I’m still upset.": [5, ["Orange", "Calico"]],
             "Watch my owner carefully to see where they place the treats…maybe I can have a second round of treats later!!": [5, ["Gray", "Tuxedo"]],
@@ -43,7 +43,7 @@ const Data = {
         "text": "Eh? The front door is suddenly open. The outside world! You…",
         "image" : "images/question5.PNG",
         "choices": {
-            "Stay inside. I’m sure this is a lot better than what the outside has to offer.": [6, ["White", "Tabby"]],
+            "Stay inside. I’m sure this is a lot better than what the outside has to offer.": [6, ["White", "Brown"]],
             "Immediately go outside and explore! I’ll be back when it's time to eat!": [6, ["Orange", "Gray", "Tuxedo"]],
             "It looks fun! But scary. Let me convince the new cat to go outside with me.": [6, ["Hairless", "Calico"]],
             "Didn’t even notice. Was sleeping the entire time!": [6, ["Black"]]
@@ -53,9 +53,9 @@ const Data = {
         "text": "You hear the sound of the food container. It’s dinner time! You…",
         "image" : "images/question6.PNG",   
         "choices": {
-            "FOOD! I immediately run over to eat as it’s poured out of the container!": [7, ["Orange", "Calico"]],
+            "FOOD! I immediately run over to eat as it’s poured out of the container!": [7, ["Orange"]],
             "I’ll wait! It will come to me all the same.": [7, ["Tuxedo", "White", "Hairless"]],
-            "What’s that sound? It sounds familiar…I’ll go over to investigate.": [7, ["Calico"]],
+            "What’s that sound? It sounds familiar…I’ll go over to investigate.": [7, ["Calico", "Brown"]],
             "It’s that time. I’m already waiting by the bowl and meowing at them to hurry up!": [7, ["Black", "Gray"]]
         }
     },
@@ -64,7 +64,7 @@ const Data = {
         "image" : "images/question7.PNG",   
         "choices": {
             "Now’s my time to get my revenge. I’m chasing that new cat around.": [8, ["Gray"]],
-            "Lay down at my favorite spot on the cat tree.": [8, ["Tuxedo", "Black", "Tabby"]],
+            "Lay down at my favorite spot on the cat tree.": [8, ["Tuxedo", "Black", "Brown"]],
             "Cuddle with my owner, they look exhausted.": [8, ["Hairless", "White"]],
             "I still have so much energy! Let’s play! I can still play with my favorite toy!": [8, ["Orange", "Calico"]]
         }
@@ -73,7 +73,7 @@ const Data = {
 
 const kitties = { //creates counters
     "Orange": 0,
-    "Tabby": 0,
+    "Brown": 0,
     "White": 0, 
     "Gray": 0, 
     "Calico": 0, 
@@ -150,7 +150,7 @@ function showResults() {
     // Create a description block for each cat type
     const descriptions = {
         "Orange": "Energetic, Stubborn, and Determined.",
-        "Tabby": "Intuitive, Vocal, and Adventurous.",
+        "Brown": "Intuitive, Vocal, and Adventurous.",
         "White": "Gentle, Delicate, and Affectionate.",
         "Gray": "Reserved, Curious, Fast Learner and Experimental",
         "Calico": "Assertive, Unique, and Socially Aware.",
@@ -165,7 +165,7 @@ function showResults() {
                "- Strong willed. With bursts of passion.",
                "- Main character energy.",
                "- 'If I put my mind to it, I can do it.'"],
-    "Tabby": ["- Sassy and independent.",
+    "Brown": ["- Sassy and independent.",
               "- Feisty if you challenge them.",
               "- Not afraid to let others know what they want.",
               "- Can be moody, but fun when in a good mood."],
