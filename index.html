@@ -96,6 +96,12 @@
             font-family: 'DynaPuff', serif;
             border-radius: 10px;
         }
+        .feedback-link {
+            font-size: 16px;
+            margin: 20px auto; /* Centers the link */
+            display: block; /* Necessary to use margin auto effectively */
+            text-align: center; 
+        }
 
         @media (hover: hover) {
             .start-button:hover {
@@ -122,7 +128,7 @@
        <img id="question-image" src="" alt="Question Image">
         <div id="choices-container"></div>
     </div>
-    <a href="https://docs.google.com/forms/d/10tJt4h_7Db41PTriNSWuliN0iOzF6lV2IgUtV9wYOVI/edit">Feedback Form!</a>
+    <a href="https://docs.google.com/forms/d/10tJt4h_7Db41PTriNSWuliN0iOzF6lV2IgUtV9wYOVI/edit" class="feedback-link" id="feedbackLink" style="display: none;">Feedback Form!</a>
     <p class="credits">Made by: Aadhya and Zach<br>Illustrations: @imzachree </p>
     <script src="code/code.js"></script>
 </body>
