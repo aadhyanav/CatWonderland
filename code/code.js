@@ -224,6 +224,7 @@ function showResults() {
     restartButtonContainer.appendChild(restartButton);
     
     resultsContainer.appendChild(restartButtonContainer);
+    document.getElementById('feedbackLink').style.display = 'block';
 
     const credits = document.querySelector(".credits");
     credits.style.display = "block";
