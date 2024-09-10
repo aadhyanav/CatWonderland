@@ -180,7 +180,7 @@ function showResults() {
              "- When there is a will, there is a way.",
              "- Highly intuitive, loves to explore.",
              "- Sometimes a menace.",
-             "- Picks new skills really quickly.],
+             "- Picks new skills really quickly."],
     "Calico": ["- Natural Leader.",
                "- Extremely good at picking up social cues.",
                "- Always alert and aware of their surroundings. Careful and Wise.",
