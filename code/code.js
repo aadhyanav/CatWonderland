@@ -174,7 +174,7 @@ function showResults() {
               "- 'I'll do it if you really want me to.'",
               "- Loves cuddles.",
               "- Sensitive during high pressure situations.",
-              "- Enjoys alone time, but are very affectionate towards others."],
+              "- Enjoys alone time, but is very affectionate towards others."],
     "Gray": ["- Very independent and prefers to be left alone.",
              "- When there is a will, there is a way.",
              "- Highly intuitive, loves to explore.",
