@@ -10,23 +10,26 @@
         body {
             font-family: 'DynaPuff', serif;
             background: #feeac6;
+            margin: 0;
+            padding: 0;
         }
         .title {
-            font-size: 30px;
+            font-size: 6vw; /* Responsive font size */
             margin-bottom: 3vh;
             text-align: center;
         }
         .subheader {
-            font-size: 21px;
+            font-size: 4vw;
             text-align: center;
+            margin-bottom: 3vh;
         }
         .credits {
-            font-size: 10px;
+            font-size: 2vw;
             text-align: center;
         }
         .start-button {
-            font-size: 21px;
-            padding: 1vh 2vw;
+            font-size: 4vw;
+            padding: 1vh 4vw;
             border: 2px solid #52aafc; 
             background-color: #c6e3fe;
             cursor: pointer;
@@ -36,16 +39,18 @@
             border-radius: 12px;
         }
         .image {
-            width: 450px;
+            width: 80%; /* Make image width responsive */
+            max-width: 450px; /* Limit the width on larger screens */
             margin-bottom: 3vh;
         }
         .container {
             display: flex;
             flex-direction: column;
             align-items: center;
+            padding: 2vw;
         }
         #question-container {
-            display: none; /* Initially hide the question container */
+            display: none;
             text-align: center;
         }
         #choices-container {
@@ -55,19 +60,20 @@
             text-align: center;
         }
         #question-text {
-            font-size: 27px; 
+            font-size: 5vw; 
             margin-bottom: 2vh;
             font-weight: bold;
         } 
          #question-image {
-            width: 425px;
+            width: 80%;
+            max-width: 425px;
             margin-bottom: 3vh;
         }
         .choice-button {
-            font-size: 17px;
+            font-size: 4vw;
             display: block;
             margin: 1vh 0;
-            padding: 1vh 2vw;
+            padding: 1vh 4vw;
             border: 2px solid #52aafc;
             background-color: #c6e3fe;
             cursor: pointer;
@@ -77,16 +83,16 @@
             border-radius: 12px;
         }
         .traits-box {
-           border: 2px solid black; /* Black border */
+           border: 2px solid black;
            padding: 5px;
            margin-top: 5px;
-           border-radius: 8px; /* Rounded corners */
-           max-width: 300px; /* Limit the width */
+           border-radius: 8px;
+           max-width: 80%;
            display: inline-block; 
         }
         .restart-button {
-            font-size: 15px;
-            padding: 0.5vh 1vw;
+            font-size: 4vw;
+            padding: 0.5vh 4vw;
             border: 2px solid #52aafc; 
             background-color: #c6e3fe;
             cursor: pointer;
@@ -97,9 +103,9 @@
             border-radius: 10px;
         }
         .feedback-link {
-            font-size: 16px;
-            margin: 20px auto; /* Centers the link */
-            display: block; /* Necessary to use margin auto effectively */
+            font-size: 4vw;
+            margin: 20px auto;
+            display: block;
             text-align: center; 
         }
 
@@ -112,6 +118,40 @@
             }
             .restart-button:hover {
                 background-color: #9fd0fd;
+            }
+        }
+
+        /* For screens larger than 768px */
+        @media screen and (min-width: 768px) {
+            .title {
+                font-size: 30px;
+            }
+            .subheader {
+                font-size: 21px;
+            }
+            .credits {
+                font-size: 10px;
+            }
+            .start-button {
+                font-size: 21px;
+            }
+            .image {
+                width: 450px;
+            }
+            #question-text {
+                font-size: 27px; 
+            } 
+            #question-image {
+                width: 425px;
+            }
+            .choice-button {
+                font-size: 17px;
+            }
+            .restart-button {
+                font-size: 15px;
+            }
+            .feedback-link {
+                font-size: 16px;
             }
         }
     </style>
